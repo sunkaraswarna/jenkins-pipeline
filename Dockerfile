@@ -7,4 +7,4 @@ RUN rm -rf photosec.zip && \
     cp -rf photosec-html/* . && \
     rm -rf photosec-html 
 EXPOSE 80
-CMD ["/usr/sbin/httpd", "-D", "FOREGROUD"]
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
